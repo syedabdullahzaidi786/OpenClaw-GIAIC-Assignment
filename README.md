@@ -1,179 +1,74 @@
 <div align="center">
 
 # 🤖 OpenClaw AI Meeting Assistant
-### GIAIC Assignment
 
-An AI-powered Meeting Assistant built with **OpenClaw**, **OpenRouter**, **Discord**, and **Trello** to automate meeting summaries, action items, and project management workflows.
+<img src="./assets/banner.png" alt="OpenClaw AI Meeting Assistant Banner" width="100%"/>
 
-![Status](https://img.shields.io/badge/Status-In%20Progress-blue)
-![Milestone](https://img.shields.io/badge/Milestones-3%20of%204-success)
-![Platform](https://img.shields.io/badge/Platform-Windows%2011-0078D6)
-![OpenClaw](https://img.shields.io/badge/OpenClaw-2026.7.1-orange)
-![License](https://img.shields.io/badge/License-MIT-green)
+### 🚀 AI-Powered Meeting Automation using OpenClaw, Discord & Trello
+
+Automatically summarize meetings, extract action items, create Trello cards, and deliver executive reports to Discord.
+
+![OpenClaw](https://img.shields.io/badge/OpenClaw-2026-blue?style=for-the-badge)
+![OpenRouter](https://img.shields.io/badge/OpenRouter-LLM-success?style=for-the-badge)
+![Discord](https://img.shields.io/badge/Discord-Bot-5865F2?style=for-the-badge&logo=discord&logoColor=white)
+![Trello](https://img.shields.io/badge/Trello-Automation-0079BF?style=for-the-badge&logo=trello&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 </div>
 
 ---
 
-# 📌 Project Overview
+# 📖 Overview
 
-This project demonstrates how **OpenClaw** can be used as an AI-powered Meeting Assistant by integrating Large Language Models with communication and project management tools.
+This project was developed as part of the **GIAIC OpenClaw Assignment**.
 
-The assistant automates common meeting workflows including:
+The AI assistant can automatically:
 
-- Meeting transcript processing
-- AI-generated meeting summaries
-- Action item extraction
-- Discord notifications
-- Trello task creation
-- Daily executive reporting (Work in Progress)
-
-This repository was created as part of the **GIAIC OpenClaw Practical Assignment**.
-
----
-
-# 🎯 Assignment Objectives
-
-The assignment consists of four milestones.
-
-| Milestone | Status |
-|-----------|--------|
-| ✅ Milestone 1 – OpenClaw Setup & Communication Channel | Completed |
-| ✅ Milestone 2 – Meeting Intelligence | Completed |
-| ✅ Milestone 3 – Project Management Automation | Completed |
-| 🚧 Milestone 4 – Daily Executive Assistant | In Progress |
+- 🎤 Read Meeting Transcripts
+- 📝 Generate Meeting Summaries
+- ✅ Extract Action Items
+- 📅 Detect Deadlines
+- 📋 Create Trello Cards
+- 🤖 Reply in Discord
+- ⏰ Execute Scheduled Cron Jobs
+- 🌅 Generate Morning Reports
+- 🌙 Generate Evening Reports
 
 ---
 
 # ✨ Features
 
-## 🤖 AI Meeting Intelligence
-
-- Generate meeting summaries
-- Extract action items
-- Identify responsible team members
-- Detect deadlines
-- Generate structured reports
-
----
-
-## 💬 Discord Integration
-
-- Receive prompts
-- Generate AI responses
-- Share meeting summaries
-- Deliver automation reports
+| Feature | Status |
+|----------|--------|
+| OpenClaw Setup | ✅ |
+| Discord Bot | ✅ |
+| OpenRouter Integration | ✅ |
+| Meeting Summary | ✅ |
+| Action Item Extraction | ✅ |
+| Trello Automation | ✅ |
+| Cron Jobs | ✅ |
+| Morning Report | ✅ |
+| Evening Report Prompt | ✅ |
 
 ---
 
-## 📋 Trello Automation
+# 🏗 System Architecture
 
-Automatically create Trello cards from meeting action items.
+<p align="center">
 
-Example:
+<img src="./assets/architecture.png" width="90%">
 
-| Task | Owner | Due |
-|------|-------|-----|
-| Complete Frontend | Ali | Friday |
-| Complete Backend | Ahmed | Monday |
-| UI Improvements | Sara | Before Deployment |
-
----
-
-## 🧠 OpenRouter Integration
-
-Supports AI models through OpenRouter.
-
-Current configuration:
-
-- OpenRouter
-- Local OpenClaw Agent
-- Discord Channel Communication
-
----
-
-## 📅 Daily Executive Assistant *(In Progress)*
-
-Planned automation includes:
-
-- Morning Briefing
-- Meeting Agenda
-- Pending Trello Tasks
-- Daily Summary
-- Evening Report
-
----
-
-# 🏗️ System Architecture
-
-```
-                 Google Meet
-                      │
-                      ▼
-             Meeting Transcript
-                      │
-                      ▼
-                 OpenClaw AI
-                      │
-        ┌─────────────┼──────────────┐
-        ▼             ▼              ▼
- Meeting Summary  Action Items   AI Analysis
-        │             │
-        │             ▼
-        │         Trello Board
-        │
-        ▼
- Discord Notification
-```
+</p>
 
 ---
 
 # 🔄 Workflow
 
-```
-Meeting Ends
+<p align="center">
 
-↓
+<img src="./assets/workflow.png" width="90%">
 
-Meeting Transcript
-
-↓
-
-OpenClaw Reads Transcript
-
-↓
-
-AI Generates Summary
-
-↓
-
-Extract Action Items
-
-↓
-
-Post Summary to Discord
-
-↓
-
-Create Trello Cards
-
-↓
-
-Daily Report (Upcoming)
-```
-
----
-
-# 🛠️ Tech Stack
-
-| Technology | Purpose |
-|------------|----------|
-| OpenClaw | AI Agent Platform |
-| OpenRouter | LLM Provider |
-| Discord | Communication Platform |
-| Trello API | Task Management |
-| PowerShell | Local Configuration |
-| Windows 11 | Development Environment |
+</p>
 
 ---
 
@@ -182,18 +77,27 @@ Daily Report (Upcoming)
 ```text
 OpenClaw-GIAIC-Assignment/
 
-├── README.md
-├── LICENSE
-├── CHANGELOG.md
-├── .gitignore
+│
+├── assets/
+│   ├── banner.png
+│   ├── architecture.png
+│   └── workflow.png
 │
 ├── docs/
 │   ├── setup-guide.md
+│   ├── architecture.md
+│   ├── troubleshooting.md
 │   ├── milestone-1.md
 │   ├── milestone-2.md
 │   ├── milestone-3.md
-│   ├── milestone-4.md
-│   └── screenshots/
+│   └── milestone-4.md
+│
+├── examples/
+│   ├── sample-meeting.md
+│   ├── sample-discord-output.md
+│   ├── sample-morning-report.md
+│   ├── sample-evening-report.md
+│   └── sample-trello-cards.md
 │
 ├── meeting/
 │   ├── transcript.txt
@@ -202,93 +106,135 @@ OpenClaw-GIAIC-Assignment/
 │
 ├── prompts/
 │   ├── meeting-summary.md
-│   ├── trello.md
-│   └── morning-report.md
+│   ├── trello-automation.md
+│   ├── morning-report.md
+│   └── evening-report.md
 │
-└── assets/
+├── screenshots/
+│   ├── dashboard.png
+│   ├── discord-chat.png
+│   ├── trello-board.png
+│   └── cron-job.png
+│
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── LICENSE
+├── SUBMISSION.md
+└── README.md
 ```
 
 ---
 
-# 🚀 Installation
+# 📷 Screenshots
 
-Clone the repository
+## 🖥 OpenClaw Dashboard
 
-```bash
-git clone https://github.com/syedabdullahzaidi786/OpenClaw-GIAIC-Assignment.git
-```
-
-Open the project
-
-```bash
-cd OpenClaw-GIAIC-Assignment
-```
-
-Install OpenClaw and configure:
-
-- OpenRouter API
-- Discord Bot
-- Trello API
-- jq
-
-Detailed setup instructions are available in:
-
-```
-docs/setup-guide.md
-```
+<img src="./screenshots/dashboard.png">
 
 ---
 
-# ⚙️ Configuration
+## 💬 Discord Bot
 
-Configure the following services:
+<img src="./screenshots/discord-chat.png">
+
+---
+
+## 📋 Trello Automation
+
+<img src="./screenshots/trello-board.png">
+
+---
+
+## ⏰ Cron Jobs
+
+<img src="./screenshots/cron-job.png">
+
+---
+
+# ⚙ Technologies Used
 
 - OpenClaw
 - OpenRouter
-- Discord Bot
-- Trello API
+- Discord Bot API
+- Trello REST API
 - jq
-
-> **Important:** Never commit API keys, tokens, or secrets to GitHub.
-
----
-
-# 📸 Screenshots
-
-The following screenshots will be added during development.
-
-- OpenClaw Dashboard
-- Discord Bot
-- Meeting Summary
-- Trello Board
-- Cron Jobs
+- curl
+- PowerShell
+- Windows 11
 
 ---
 
-# 📈 Current Progress
+# 🚀 Workflow
 
-| Component | Status |
-|-----------|--------|
-| OpenClaw Installation | ✅ |
-| Discord Integration | ✅ |
-| Meeting Summary | ✅ |
-| Action Item Extraction | ✅ |
-| Trello Integration | ✅ |
-| Cron Automation | 🚧 |
+```text
+Google Meet
+
+        │
+
+Meeting Transcript
+
+        │
+
+OpenClaw
+
+        │
+
+OpenRouter
+
+        │
+
+Meeting Summary
+
+        │
+
+Action Items
+
+   ┌──────────────┐
+   │              │
+   ▼              ▼
+
+Discord       Trello
+
+        │
+
+Morning Reports
+
+        │
+
+Cron Jobs
+```
 
 ---
 
-# 🚀 Future Improvements
+# 📚 Documentation
+
+| Document | Description |
+|----------|-------------|
+| Setup Guide | Installation Process |
+| Architecture | System Design |
+| Troubleshooting | Common Issues |
+| Milestones | Assignment Progress |
+
+---
+
+# 🏆 Milestones
+
+- ✅ Milestone 1 — OpenClaw Installation
+- ✅ Milestone 2 — Meeting Intelligence
+- ✅ Milestone 3 — Trello Automation
+- 🚧 Milestone 4 — Executive Assistant
+
+---
+
+# 🔮 Future Improvements
 
 - Google Calendar Integration
-- WhatsApp Support
-- Microsoft Teams Support
-- Automatic Meeting Detection
-- Email Reports
-- Voice Commands
-- Multi-language Summaries
-- AI Priority Detection
+- Google Meet API
 - Slack Integration
+- WhatsApp Notifications
+- Email Reports
+- Multi-language Support
+- Voice Commands
 
 ---
 
@@ -297,10 +243,10 @@ The following screenshots will be added during development.
 **Syed Abdullah Zaidi**
 
 - Full Stack Developer
-- AI & Agentic AI Learner
+- AI Enthusiast
 - GIAIC Student
 
-GitHub:
+GitHub
 
 https://github.com/syedabdullahzaidi786
 
@@ -312,18 +258,10 @@ This project is licensed under the MIT License.
 
 ---
 
-# ⭐ Acknowledgements
-
-- OpenClaw
-- OpenRouter
-- Discord
-- Trello
-- GIAIC
-
----
-
 <div align="center">
 
-### ⭐ If you found this project helpful, consider giving it a star.
+### ⭐ If you like this project, consider giving it a Star.
+
+Made with ❤️ using OpenClaw
 
 </div>
