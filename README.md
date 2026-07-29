@@ -129,19 +129,19 @@ OpenClaw-GIAIC-Assignment/
 
 ## 🖥 OpenClaw Dashboard
 
-<img src="./screenshots/dashboard.png">
+<img src="">
 
 ---
 
 ## 💬 Discord Bot
 
-<img src="./screenshots/discord-chat.png">
+<img src="./docs/screenshots/discord-chat.png">
 
 ---
 
 ## 📋 Trello Automation
 
-<img src="./screenshots/trello-board.png">
+<img src="./docs/screenshots/trello-board.png">
 
 ---
 
