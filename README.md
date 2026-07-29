@@ -129,7 +129,7 @@ OpenClaw-GIAIC-Assignment/
 
 ## 🖥 OpenClaw Dashboard
 
-<img src="">
+<img src="./docs/screenshots/dashboard.png">
 
 ---
 
@@ -147,7 +147,7 @@ OpenClaw-GIAIC-Assignment/
 
 ## ⏰ Cron Jobs
 
-<img src="./screenshots/cron-job.png">
+<img src="./docs/screenshots/cron-jobs.png">
 
 ---
 
